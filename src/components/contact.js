@@ -1,10 +1,12 @@
 import React from "react";
 import {
     Button, Container, Navbar, Nav, Form,
-    FormControl, Carousel, NavDropdown, Row, Col, Image, Card, CardGroup
+    FormControl, Carousel, NavDropdown, Row, Col, Image, Card, CardGroup, Jumbotron
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../css/home.css";
+import mapIcon from "../images/placeholder.png"
+
 
 class Contact extends React.Component {
     render() {
@@ -12,29 +14,22 @@ class Contact extends React.Component {
             <>
                 <Navbar bg="light" variant="light" fixed="top">
                     <Navbar.Brand>
-                    LOGO
+                    CIA-COATING
                     </Navbar.Brand>
                     <Nav className="mr-auto">
 
-                        <Nav.Link>
-                            <Link to="/home">Home</Link>
-                        </Nav.Link>
-                        <NavDropdown title="Products" id="collasible-nav-dropdown">
-                            <NavDropdown.Item>
-                            <Link to="/product">    Industrial Pcs</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                            <Link to="/product">PLC System</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                            <Link to="/product">I/O System</Link>
-                            </NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link>
-                            <Link to="/about">About Us</Link>
+                    <Nav.Link>
+                            <Link to="/home">HOME</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link to="/contact">Contact</Link>
+                            <Link to="/product">SERVICES</Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link to="/about">ABOUT US</Link>
+                        </Nav.Link>
+                        
+                        <Nav.Link>
+                            <Link to="/contact">CONTACT</Link>
                         </Nav.Link>
                     </Nav>
                 </Navbar>
@@ -49,21 +44,16 @@ class Contact extends React.Component {
                                 CONTACT DETAILS
                             </h3>
                             <p>
-                                Address:- 
-                                <br/>
-                                Factory - 53/1, Nigdi - Chakan Road, Near Talwade Circle,
-                                Talwade, Tal. Haveli, Dist. Pune, Maharashtra, India - 411062
+                            <i className="bi bi-globe2 margin-10"/>
+                                <span>Factory - 53/1, Nigdi - Chakan Road, Near Talwade Circle</span>
+                                <p className="margin-10">Talwade, Tal. Haveli, Dist. Pune, Maharashtra, India - 411062</p>
                             </p>
                             <p>
-                                Mobile :-
-                            <br />
+                            <i className="bi bi-telephone margin-10"/>
                             +91 9921001880
-                            <br />
-                            +91 9921001881
                             </p>
                             <p>
-                                Email:-
-                                <br />
+                            <i class="bi bi-envelope-open margin-10"></i>
                                 myinfo@gmail.com
                             </p>
                         </Col>
@@ -105,12 +95,17 @@ class Contact extends React.Component {
                     </Row>
                 </Container>
 
-                <div className="margin-top-30" style={{ background: "black", color: "white" }}>
-                    <Container>
+                <div className="margin-top-30">
+                <Jumbotron>
+                        <h1 className="text-center">
+                            FIND US HERE ...
+                            <Image src={mapIcon} width="6%"/>
+                        </h1>
+                        
                         <div style={{margin:"20px 0"}}> 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.92836565562!2d73.7929269405248!3d18.52476632650221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1615096060797!5m2!1sen!2sin" width="1100" height="400" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.92836565562!2d73.7929269405248!3d18.52476632650221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1615096060797!5m2!1sen!2sin" width="100%" height="400" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                    </Container>
+                </Jumbotron>
                 </div>
             </>
         );
