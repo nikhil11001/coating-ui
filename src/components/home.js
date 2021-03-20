@@ -138,7 +138,7 @@ class Home extends React.Component {
 
                                     <Card.Text>
                                         We Commenced its activities for establishments of surface coating plants all over INDIA. Using our engineering expertise & experience, We started our own Manufacturing unit in 1996, Which gives full satisfaction to our all customers up-to plant erection & commissioning from plant purchase.
-                                        <Button variant="link">Read More</Button>
+                                        <Link to="/about"><Button variant="link">Read More</Button></Link>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -202,7 +202,7 @@ class Home extends React.Component {
                             </p>
                                 </Col>
                             </Row>
-                            <p><Button className="primary"> OUR SERVICES</Button> </p>
+                            <p><Link to="/product"><Button className="primary"> OUR SERVICES</Button> </Link></p>
                         </Jumbotron>
                     </div>
                 </Container>
