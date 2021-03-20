@@ -99,7 +99,7 @@ class Contact extends React.Component {
                 <Jumbotron>
                         <h1 className="text-center">
                             FIND US HERE ...
-                            <Image src={mapIcon} width="6%"/>
+                            <Image className="location-ico bounce-1" src={mapIcon} width="6%"/>
                         </h1>
                         
                         <div style={{margin:"20px 0"}}> 
