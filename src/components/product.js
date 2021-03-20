@@ -34,7 +34,7 @@ class Product extends React.Component {
                 <Container>
                     <div style={{ margin: "70px 0px" }}>
                     </div>
-                    <h1>SHEET METAL Powder Coating</h1>
+                    <h1>SHEET METAL <span className="featurette-heading text-muted">Powder Coating</span></h1>
                     <h6>
                         As with any other metal parts, powder coating on sheet metal requires the article to be pre-treated with 7 stage process involving degreasing, derusting, phospating and passivation to achive optimum coating results.
                     </h6>
@@ -54,7 +54,7 @@ class Product extends React.Component {
                     </div>
 
                     <div className="margin-top-30">
-                        <h1>COATING ON ALUMINIMUM & Pressure Die casting</h1>
+                        <h1>COATING ON ALUMINIMUM <span className="featurette-heading text-muted">& Pressure Die casting</span></h1>
                         <h6>
                             The aluminium pretreatment process is often done as RoHS-compatible chromate conversion coating or Phosphating of Aluminium. The process involves dgreasing, rinsing, etching, deoxidation and chromatising or phospating.
                     </h6>
@@ -76,7 +76,7 @@ class Product extends React.Component {
 
 
                     <div className="margin-top-30">
-                        <h1>CONTINOUS COATING On Stainless Steel & bands</h1>
+                        <h1>CONTINOUS COATING  <span className="featurette-heading text-muted">On Stainless Steel & bands</span></h1>
                         <h6>
                             The Pre-treatment before Powder coating on stainless steel is done with initial degreasing followed by a mild etch using phosphoric acid to provide some mechanical adhesion and finally passivation is done to clean up the residue.
                         </h6>
