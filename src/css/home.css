@@ -1,69 +1,82 @@
-.slogna-text{
-    margin-top: 10px;
-    text-align: center;
+.slogna-text {
+  margin-top: 10px;
+  text-align: center;
 }
 
-.img-1{
-    width: inherit;
-    height: fit-content;
+.img-1 {
+  width: inherit;
+  height: fit-content;
 }
 
-.margin-top-30{
-    margin-top: 30px;
+.margin-top-30 {
+  margin-top: 30px;
 }
 
-.margin-10{
-    margin: 10px;
+.margin-10 {
+  margin: 10px;
 }
 
-.margin-top-10{
-    margin-top: 10px;
+.margin-top-10 {
+  margin-top: 10px;
 }
 
-.margin-right-10{
-    margin-right: 10px;
+.margin-right-10 {
+  margin-right: 10px;
 }
 
-.about-us
-    {
-        background: #3a8de6;
-        height: 60%;
-        width: 100%;
-        text-align: center;
-        color: white;
-        border: solid 1px grey;
-        font-family: "Roboto", Arial, Tahoma, sans-serif;
-        font-weight: 300;
-        font-size: 28px;
-        line-height: 30px;
-        padding-top: 86px;
-    }
-    
-    .about-us >h3{
-        font-family: "Roboto", Arial, Tahoma, sans-serif !important;
-        font-weight: 300;
-        font-size: 20px;
-    line-height: 30px;
-        margin:5% 7%;
-    }   
+.about-us {
+  background: #3a8de6;
+  height: 60%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border: solid 1px grey;
+  font-family: "Roboto", Arial, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 30px;
+  padding-top: 86px;
+}
 
-    .margin-10{
-        margin:10px;
-    }
+.about-us > h3 {
+  font-family: "Roboto", Arial, Tahoma, sans-serif !important;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 5% 7%;
+}
 
+.margin-10 {
+  margin: 10px;
+}
 
-    .location-ico {
-        align-self: flex-end;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        transform-origin: bottom;
-    }
-    .bounce-1 {
-        animation-name: bounce-1;
-        animation-timing-function: linear;
-    }
-    @keyframes bounce-1 {
-        0%   { transform: translateY(0); }
-        50%  { transform: translateY(-50px); }
-        100% { transform: translateY(0); }
-    }
+.location-ico {
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.siya-logo {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.height-38rem {
+  height: 38rem;
+}
