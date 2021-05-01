@@ -17,6 +17,8 @@ import {
 import { Link } from "react-router-dom";
 import "../css/home.css";
 import aboutUsIcon from "../images/about-us.png";
+import plantImg1 from "../images/plant1.jpg";
+import plantImg2 from "../images/plant2.jpg";
 
 class About extends React.Component {
   render() {
@@ -26,7 +28,7 @@ class About extends React.Component {
           <div className="about-us">
             <Image src={aboutUsIcon} width="10%" />
             <h3>
-              Bisco Group is one of the industry leader in protective coating
+              Siya Coatsys is one of the industry leader in protective coating
               solutions like Powder Coating and Cathodic Electro Deposition
               (CED) Coatings, catering to various segments like General
               Industries, Architectural, Automative, Consumer Goods, Telecom,
@@ -36,6 +38,16 @@ class About extends React.Component {
           <div className="margin-top-30">
             <Row>
               <Col md={6}>
+                <Image src={plantImg1} width="100%" />
+              </Col>
+              <Col md={6}>
+                <Image src={plantImg2} width="100%" />
+              </Col>
+            </Row>
+          </div>
+          <div className="margin-top-30">
+            <Row>
+              {/* <Col md={6}>
                 <h1>About Bisco Group of Companies</h1>
                 <h4>
                   Bisco group was founded by late Mr. M.M.Haniff and he has been
@@ -67,31 +79,42 @@ class About extends React.Component {
                   others have appointed us as vendors for the powder coating
                   requirements.
                 </p>
-              </Col>
-
-              <Col md={6}>
-                <h1>About Powder Coating & CED Coating</h1>
-                <h4>
-                  Powder Coating in most cases is the final process for
-                  corrission protection & finishing. We take utmost care of your
-                  component.
-                </h4>
-                <hr />
-                Bisco being one of the Industry Leader in Powder Coating
-                applications serves a huge customer base spread across India
-                with some customers as 100% export oriented units. Our solutions
-                and services are environment friendly by way of corrosion
-                protection which is a major problem faced across the globe.
-                Meeting the demands of a diverse group of industries like
-                Agricultural, Home Appliances, Automotive, Computer,
-                Construction Equipment, Electrical, Furniture and Industrial
-                equipment requires an equally diverse range of custom coating
-                services and technologies. At Bisco in addition to Powder
-                Coating at all location we also offer Continuous Band Coating
-                using PPA PLASCOAT, CED Coatings/E-Coat, Anodizing, Powder
-                Coatings, Rilsan Coatings, Alodine, Chromotising and PVC
-                Plastisol Coating in some of our locations.
-              </Col>
+              </Col> */}
+              {/* <Col md={6}> */}
+              <h1>About Powder Coating & CED Coating</h1>
+              <h4>
+                Powder Coating in most cases is the final process for corrission
+                protection & finishing. We take utmost care of your component.
+              </h4>
+              <hr />
+              Siya Coatsys being one of the Industry Leader in Powder Coating
+              applications serves a huge customer base spread across India with
+              some customers as 100% export oriented units. Our solutions and
+              services are environment friendly by way of corrosion protection
+              which is a major problem faced across the globe. Meeting the
+              demands of a diverse group of industries like Agricultural, Home
+              Appliances, Automotive, Computer, Construction Equipment,
+              Electrical, Furniture and Industrial equipment requires an equally
+              diverse range of custom coating services and technologies. At
+              Bisco in addition to Powder Coating at all location we also offer
+              Continuous Band Coating using PPA PLASCOAT, CED Coatings/E-Coat,
+              Anodizing, Powder Coatings, Rilsan Coatings, Alodine, Chromotising
+              and PVC Plastisol Coating in some of our locations.
+              {/* </Col> */}
+              <br />
+              <br />
+              <h3>WE DECORATE YOUR SURFACE WITH POWDER COATING</h3>
+              <br />
+              <br />
+              <p>
+                Powder Coating is pollution-free, eco-friendly, and solvent-less
+                solution. Powder Coating is a method of applying dry paint. It
+                is a type of coating that is applied as a free-flowing dry
+                powder. Powder Coating produces a high specification coating
+                which is hard, erosion-resistant and tough. They are less
+                polluting. The powder Coating can be done for building materials
+                such as windows, doors, furniture and modular cabin too.
+              </p>
             </Row>
           </div>
         </Container>
